@@ -12,6 +12,7 @@ private:
 
 public:
 	Student(Date db, string name, string nat, Date DJ, string prog);
+	void AddCourse(Course* C);
 
 };
 

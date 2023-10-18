@@ -18,6 +18,6 @@ public:
 		End = e;
 		Credits = cr;
 	}
-
+	int getCredits() { return Credits; }
 };
 

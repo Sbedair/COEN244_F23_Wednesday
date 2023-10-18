@@ -139,19 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
     <ClCompile Include="Course.cpp" />
     <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Faculty.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Professor.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Student.cpp" />
+    <ClCompile Include="UniversityManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
     <ClInclude Include="Course.h" />
     <ClInclude Include="Date.h" />
+    <ClInclude Include="Faculty.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Professor.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="UniversityManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
